@@ -19,6 +19,17 @@ a.icon {
 	margin-right: 6px;
 }
 
+.tiles a {
+	border-bottom: 0px;
+}
+
+.name {
+	font-size: 35px;
+	max-width: 420px;
+	margin: auto;
+	font-weight: bold;
+}
+
 .subhed {
 	font-weight: 400;
 	font-size: 20px;
@@ -26,7 +37,7 @@ a.icon {
 
 .image {
 	padding-bottom: 20px;
-	max-width: 440px;
+	max-width: 420px;
 	margin: auto;
 }
 .image img {
@@ -34,9 +45,13 @@ a.icon {
 }
 
 section {
-	max-width: 420px;
 	margin: auto;
 	padding-bottom: 40px;
+}
+
+.intro {
+	max-width: 400px;
+	line-height: 1.7em;
 }
 
 p {
@@ -47,8 +62,80 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+.fa {
+	font-size: 20px !important;
+	color: #222;
+}
+
+.tiles {
+	max-width: 420px;
+}
+
+.tile {
+	max-width: 100px;
+}
+
+@media (max-width: 420px) {
+
+}body {
+	font-family: Roboto Slab;
+	font-weight: 300;
+	font-size: 17px;
+	margin: 0;
+	margin-top: 40px;
+	text-align: justify;
+}
+
+a {
+	border-bottom: 1px dashed #CCC;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	font-weight: 400;
+}
+a.icon {
+	margin-right: 6px;
+}
+
+.name {
+	font-size: 35px;
+	max-width: 420px;
+	margin: auto;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+.subhed {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.image {
+	padding-bottom: 20px;
+	max-width: 420px;
+	margin: auto;
+}
+.image img {
+	max-width: 100%;
+}
+
+section {
+	margin: auto;
+	padding-bottom: 40px;
+}
+
 .intro {
+	max-width: 400px;
 	line-height: 1.7em;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 18px;
+}
+p:last-child {
+	margin-bottom: 0;
 }
 
 .fa {
@@ -56,8 +143,12 @@ p:last-child {
 	color: #222;
 }
 
+.tiles {
+	max-width: 420px;
+}
+
 .tile {
-	max-width: 120px;
+	max-width: 100px;
 }
 
 @media (max-width: 420px) {
