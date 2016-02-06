@@ -21,9 +21,10 @@ a {
 	border-bottom: 1px dashed #CCC;
 	text-decoration: none;
 	color: black;
+	font-weight: 400;
 }
 a:hover {
-	font-weight: 400;
+	border-bottom: 1px dashed black;
 }
 a.icon {
 	margin-right: 6px;
@@ -34,11 +35,13 @@ a.icon {
 }
 
 .name {
-	font-size: 35px;
+	font-size: 40px;
 	max-width: 420px;
 	margin: auto;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	padding-bottom: 15px;
+	font-family: Oswald;
+	text-transform: uppercase;
 }
 
 .image {
