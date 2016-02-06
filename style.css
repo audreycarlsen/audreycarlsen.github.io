@@ -38,14 +38,13 @@ a.icon {
 	font-size: 40px;
 	max-width: 420px;
 	margin: auto;
-	/*font-weight: bold;*/
 	padding-bottom: 15px;
 	font-family: Oswald;
 	text-transform: uppercase;
 }
 
 .image {
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	max-width: 420px;
 	margin: auto;
 }
@@ -59,7 +58,7 @@ section {
 }
 
 .intro {
-	max-width: 400px;
+	max-width: 410px;
 	line-height: 1.7em;
 }
 
