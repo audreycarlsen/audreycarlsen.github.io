@@ -17,6 +17,10 @@ body {
 	}
 }	
 
+.separate {
+	padding-bottom: 10px;
+}
+
 a {
 	border-bottom: 1px dashed #CCC;
 	text-decoration: none;
