@@ -34,6 +34,10 @@ a.icon {
 	margin-right: 6px;
 }
 
+.tiles {
+	text-align: center;
+}
+
 .tiles a {
 	border-bottom: 0px;
 }
@@ -56,6 +60,10 @@ a.icon {
 }
 .image img {
 	max-width: 100%;
+}
+
+img {
+	/*outline: 1px solid red;*/
 }
 
 section {
