@@ -57,9 +57,11 @@ a.icon {
 	padding-bottom: 30px;
 	max-width: 420px;
 	margin: auto;
+	text-align: center;
 }
 .image img {
-	max-width: 100%;
+	max-width: 50%;
+	border-radius: 50%;
 }
 
 img {
